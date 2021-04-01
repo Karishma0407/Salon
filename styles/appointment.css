@@ -1,0 +1,34 @@
+
+.appointment{
+  height: 650px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(218, 157, 251,0.7)),url('../images/salonbg1.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  margin-top: 5%;
+  position: relative;
+}
+
+.appointment-form-div{
+  position: absolute;
+  width: 70%;
+  height: auto;
+  /* background-color: rgba(169, 169, 169,0.5); */
+  background-color: rgba(0, 0, 0,0.1);
+
+  color: black;
+  padding: 50px;
+  margin: 2% 0 2% 14%;
+  display: block;
+}
+
+.form-check-label{
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}

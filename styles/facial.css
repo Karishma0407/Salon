@@ -1,0 +1,43 @@
+
+body{
+  font-family: 'Alice', serif;
+}
+
+.facial{
+  height: 650px;
+  width: 100%;
+  /* background-image: url("images/facialbg.jpg"); */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(218, 157, 251,0.7)),url('../images/facialbg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  margin-top: 5%;
+  position: relative;
+}
+
+.facial h1{
+  padding: 2%;
+}
+
+.facialtext{
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1px;
+  height: auto;
+  width: 400px;
+  padding-top: 4%;
+  padding-left: 6%;
+}
+
+.facialservices{
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  font-size: 1.5em;
+}
+
+.facialservices .navbar-nav li{
+  padding: 10px 0;
+}

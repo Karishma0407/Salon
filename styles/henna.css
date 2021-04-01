@@ -1,0 +1,43 @@
+
+body{
+  font-family: 'Alice', serif;
+}
+
+.henna{
+  height: 650px;
+  width: 100%;
+  /* background-image: url("images/hennabg.jpg"); */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(218, 157, 251, 0.7)),url('../images/hennabg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  margin-top: 5%;
+  position: relative;
+}
+
+.henna h1{
+  padding: 2%;
+}
+
+.hennatext{
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1px;
+  height: auto;
+  width: 400px;
+  padding-top: 4%;
+  padding-left: 6%;
+}
+
+.hennaservices{
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  font-size: 1.5em;
+}
+
+.hennaservices .navbar-nav li{
+  padding: 10px 0;
+}
