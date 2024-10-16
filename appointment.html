@@ -71,10 +71,11 @@
     </div>
   </section>
 
+  <!-- Appointment Form  -->
   <section id="appointment">
     <div class="container appointment">
       <div class="appointment-form-div">
-        <form id="appointmentForm" class="appointment-form center" action="http://localhost:8080/appointment/" method="post" enctype="application/json">
+        <form id="appointmentForm" class="appointment-form center" action="/appointment" method="post" enctype="application/json">
           <div class="form-group">
             <label for="name">Name:</label>
             <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
@@ -98,16 +99,16 @@
           <h5>Select your Services</h5>
           <div class="form-check">
             <label class="form-check-label" for="check1">
-              <input type="checkbox" class="form-check-input" id="check1" name="option1" value="threading">Threading
+              <input type="checkbox" class="form-check-input" id="check1" name="services" value="threading">Threading
             </label>
             <label class="form-check-label" for="check2">
-              <input type="checkbox" class="form-check-input" id="check2" name="option2" value="waxing">Waxing
+              <input type="checkbox" class="form-check-input" id="check2" name="services" value="waxing">Waxing
             </label>
             <label class="form-check-label" for="check3">
-              <input type="checkbox" class="form-check-input" id="check3" name="option3" value="facial">Facial
+              <input type="checkbox" class="form-check-input" id="check3" name="services" value="facial">Facial
             </label>
             <label class="form-check-label" for="check4">
-              <input type="checkbox" class="form-check-input" id="check4" name="option4" value="henna">Henna
+              <input type="checkbox" class="form-check-input" id="check4" name="services" value="henna">Henna
             </label>
           </div>
           <button class="btn" type="submit" name="button">Book Now</button>
